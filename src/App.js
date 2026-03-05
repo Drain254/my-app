@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import MyFirstComponent from './components/MyFirstComponent';
 import TaskComponent from './components/TaskComponent';
+import MySecondComponent from './components/MySecondComponent';
+import MyThirdComponent from './components/MyThirdComponent';
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,8 @@ function App() {
       {/* we bind our component */}
       <MyFirstComponent/>
       <TaskComponent/>
+      <MySecondComponent/>
+      <MyThirdComponent/>
     </div>
   );
 }
